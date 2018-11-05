@@ -1,0 +1,2 @@
+class netCreateOptionError(Exception):
+    pass
