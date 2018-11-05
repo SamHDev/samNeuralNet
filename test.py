@@ -1,4 +1,4 @@
-from samNeuralNet import SamNeuralNet as snn
+from samNeuralNet import samNeuralNet as snn
 
 if (snn.isNetwork("network.snn")):
     net = snn.loadNetwork("network.snn")
